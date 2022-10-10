@@ -1,0 +1,39 @@
+/* general  */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* sizing and positioning */
+#onetohundred{
+    width: 50vw;
+    height: 50vw;
+    margin: 50px auto;
+    background-color: lightcoral;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 600;
+}
+.cell{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid white;
+    position: relative;    
+}
+p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* adding styles */
+.blue{
+    color: blue;
+}
+.green{
+    color: green;
+}
+.lime{
+    color: lime;
+}
